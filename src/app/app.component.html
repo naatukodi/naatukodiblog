@@ -1,2 +1,15 @@
-<h1>NaatuKodi Blog</h1>
+<header>
+  <h1>Welcome to NaatuKodi Blog</h1>
+</header>
+
+<section class="blog-list">
+  <h2>Recent Blog Posts</h2>
+  <ul>
+    <li *ngFor="let post of blogPosts">
+      <a [routerLink]="post.route">{{ post.title }}</a>
+      <span class="blog-date">{{ post.date | date }}</span>
+    </li>
+  </ul>
+</section>
+
 <router-outlet></router-outlet>
