@@ -13,4 +13,7 @@ export const config: ScullyConfig = {
         folder: "./blog"
       }
     },},
+  puppeteerLaunchOptions: {
+    executablePath: "/usr/bin/chromium-browser" // Ensure Puppeteer uses installed Chromium
+  }
 };
