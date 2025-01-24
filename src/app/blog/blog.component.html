@@ -1,7 +1,35 @@
-<h3>ScullyIo content</h3>
-<hr>
-
-<!-- This is where Scully will inject the static HTML -->
-<scully-content></scully-content>
-<hr>
-<h4>End of content</h4>
+<div class="blog-container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <img *ngIf="blogPost?.image" [src]="blogPost?.image" alt="{{ blogPost?.title }}" class="hero-image">
+      <div class="hero-overlay">
+        <h1 *ngIf="blogPost?.title">{{ blogPost?.title }}</h1>
+        <p class="blog-meta" *ngIf="blogPost?.author">
+          By {{ blogPost?.author }} | {{ blogPost?.date | date:'longDate' }}
+        </p>
+      </div>
+    </div>
+  
+    <!-- Blog Content (Scully Static Rendering) -->
+    <div class="blog-content">
+      <scully-content></scully-content>
+    </div>
+  
+    <!-- Blog Footer -->
+    <div class="blog-footer">
+      <p>📢 Like this post? Share it!</p>
+      <div class="share-buttons">
+        <a [href]="'https://www.facebook.com/sharer/sharer.php?u='+currentUrl" target="_blank" class="btn btn-primary">
+          <i class="bi bi-facebook"></i> Share on Facebook
+        </a>
+        <a [href]="'https://twitter.com/intent/tweet?url='+currentUrl+'&text='+blogPost?.title" target="_blank"
+          class="btn btn-info">
+          <i class="bi bi-twitter"></i> Tweet
+        </a>
+        <a [href]="'https://wa.me/?text='+blogPost?.title+'%20'+currentUrl" target="_blank" class="btn btn-success">
+          <i class="bi bi-whatsapp"></i> Share on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+  
