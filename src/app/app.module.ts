@@ -4,10 +4,14 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlogListComponent } from './blog-list/blog-list.component';
+import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlogListComponent,
+    BlogDetailComponent
   ],
   imports: [
     BrowserModule,

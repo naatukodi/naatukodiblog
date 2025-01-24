@@ -1,0 +1,10 @@
+<div class="blog-container">
+    <h2>Latest Blog Posts</h2>
+    <div *ngFor="let post of blogPosts" class="blog-card">
+      <h3>{{ post.title }}</h3>
+      <p class="blog-date">Published on: {{ post.date }}</p>
+      <p class="blog-summary">{{ post.description }}</p>
+      <a [routerLink]="post.route" class="read-more">Read More →</a>
+    </div>
+  </div>
+  

@@ -1,0 +1,6 @@
+<div class="blog-detail-container" *ngIf="blog">
+    <h1 class="blog-title">{{ blog.title }}</h1>
+    <p class="blog-date">Published on: {{ blog.date }}</p>
+    <div class="blog-content" [innerHTML]="blog.description"></div>
+  </div>
+  
