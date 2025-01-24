@@ -15,8 +15,9 @@ export class AppComponent {
   ngOnInit(): void {
     this.scully.available$.subscribe(routes => {
       this.blogPosts = routes
-        .filter(route => route.route.startsWith('/blog/')) // Get only blog posts
+        .filter(route => route.route.startsWith('/blog/')) // Fetch only blogs
         .sort((a, b) => new Date(b['date']).getTime() - new Date(a['date']).getTime()); // Sort newest first
     });
   }
 }
+

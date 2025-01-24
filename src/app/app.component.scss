@@ -1,47 +1,13 @@
-header {
-    text-align: center;
-    background: #007bff;
-    color: white;
-    padding: 15px;
-  }
-  
-  .blog-list {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #007bff;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .blog-date {
-    color: #777;
-    font-size: 14px;
-  }
-  
+//@import "bootstrap/dist/css/bootstrap.min.css";
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css");
+
+/* Navbar Styling */
+.navbar-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Ensure dropdown menus display properly */
+.dropdown-menu {
+  min-width: 200px;
+}
