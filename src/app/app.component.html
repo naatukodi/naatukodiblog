@@ -19,7 +19,21 @@
           <a class="nav-link" href="https://www.naatukodi.co.in">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="https://www.naatukodi.co.in/about">About</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="https://www.naatukodi.co.in/services">Services</a>
+        </li>
+
+        <!-- More Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.naatukodi.co.in/forfarmers">For Farmers</a></li>
+            <li><a class="dropdown-item" href="https://www.naatukodi.co.in/forbusinesses">For Businesses</a></li>
+          </ul>
         </li>
 
         <!-- Blog Dropdown -->
@@ -31,17 +45,6 @@
             <li *ngFor="let post of blogPosts">
               <a class="dropdown-item" [routerLink]="post.route">{{ post.title }}</a>
             </li>
-          </ul>
-        </li>
-
-        <!-- More Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            More
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.naatukodi.co.in/forfarmers">For Farmers</a></li>
-            <li><a class="dropdown-item" href="https://www.naatukodi.co.in/forbusinesses">For Businesses</a></li>
           </ul>
         </li>
 
