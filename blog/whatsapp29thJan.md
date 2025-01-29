@@ -118,7 +118,7 @@ A **WhatsApp Business account ban** or **unexpected disablement** can be stressf
 
 If you’re dealing with a **WhatsApp Business issue**, feel free to reach out!  
 
-📧 **Email:** [gsrnaatukodi@ngmail.com](mailto:gsrnaatukodi@ngmail.com)  
+📧 **Email:** [gsrnaatukodi@gmail.com](mailto:gsrnaatukodi@gmail.com)  
 🌍 **Website:** [https://www.naatukodi.co.in](https://www.naatukodi.co.in)  
 📲 **Follow Us on WhatsApp!**  
 
