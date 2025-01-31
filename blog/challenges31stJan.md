@@ -1,9 +1,9 @@
 ---
-title: Overcoming Roadblocks at Our Chicken Coop: Challenges and Solutions
-description: Discover the challenges we've faced at our chicken coop, including social media bans and smart device issues, and how we're developing permanent solutions to ensure the success of our noble cause.
-keywords: chicken coop, livestock communication, social media ban, egg hatching, smart devices, temperature control, Arduino, smart farming, poultry farming challenges, sustainable agriculture
-author: GSR
-date: 2025-01-31
+title: "Overcoming Roadblocks at Our Chicken Coop: Challenges and Solutions"
+description: "Discover the challenges we've faced at our chicken coop, including social media bans and smart device issues, and how we're developing permanent solutions to ensure the success of our noble cause."
+keywords: "chicken coop, livestock communication, social media ban, egg hatching, smart devices, temperature control, Arduino, smart farming, poultry farming challenges, sustainable agriculture"
+author: "GSR"
+date: "2025-01-31"
 ---
 
 ## Overcoming Roadblocks at Our Chicken Coop: Challenges and Solutions
@@ -45,12 +45,11 @@ Recognizing the importance of precise temperature and humidity control, we're ex
 3. **Upgraded Equipment**: Investing in more reliable smart devices with better temperature regulation capabilities.
 4. **Manual Monitoring**: Supplementing automated systems with manual checks to quickly address any discrepancies.
 5. **Arduino-Based Solution**: To address the limitations of our current setup, we are developing an **Arduino-based humidity and temperature maintaining system** specifically designed for artificial egg hatching. This custom solution will allow us to:
-
     - Precisely control and monitor the incubation environment
     - Integrate multiple sensors for real-time data collection
     - Automate adjustments to maintain optimal conditions
 
-We are currently collaborating with a few friends who have expertise in electronics and programming to help build and fine-tune this Arduino system. Together, we aim to create a reliable and efficient setup that ensures high hatch rates and the healthy development of our chicks.
+    We are currently collaborating with a few friends who have expertise in electronics and programming to help build and fine-tune this Arduino system. Together, we aim to create a reliable and efficient setup that ensures high hatch rates and the healthy development of our chicks.
 
 ## Moving Forward: Seeking Permanent Solutions
 
