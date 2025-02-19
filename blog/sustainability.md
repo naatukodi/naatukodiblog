@@ -1,6 +1,6 @@
 ---
 title: "Two Futures: A Tale of the Mehta Family in a Sustainable vs. Unsustainable World"
-date: 2025-02-18
+date: "2025-02-18"
 description: "Explore the two divergent futures of the Mehta family—one thriving in a sustainable world with organic farming and renewable energy, and the other struggling with environmental decay, food insecurity, and economic instability due to unsustainable practices."
 tags: [sustainability, sustainable farming, renewable energy, organic farming, climate change, food security, environment]
 keywords: [sustainability, sustainable world, unsustainable world, organic farming, renewable energy, climate change, food security, environment, community resilience]
